@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #1a1721;
+}
+
+.container {
+    display: flex;
+    height:auto;
+    
+   }
+
+.left, .right{
+    background-color: rgb(244, 243, 248);
+    border-radius: 8px;
+    width: 50%;
+    flex: auto;
+    box-sizing: content-box;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.about > p{
+    text-align: center;
+}
+
+.header, .footer{
+    background-color: #aeaeb8;
+    border-radius: 8px;
+    color: rgb(11, 11, 11);
+    padding: 0.1rem;
+}
+.header {
+    p{
+        font-weight: bold;
+        font-size: 1.5cm;
+        margin: 0.3cm !important; 
+    }
+    h2{
+        text-align: right;
+    }
+}
+
+
+
+.about, .skills, .education, .certifications, .projects, .extra-curricular, .experience {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: large;   
+}
+
+ul {
+    list-style-type: style type disc;;
+    padding: 0;
+    ul.parent >li {
+        list-style-type: circle;
+    }
+}
+
+li {
+    padding: 0.5rem 0;
+    //list-style-type: disc;
+}
+
+.footer {
+    margin: 10;
+    font-size: small;
+    display: flex;
+}
+.phone, .email, .linkedin{
+    width: 33.33%;
+    text-align: center;
+    font-size: medium;
+}
+
+a:link {
+    color: blue;
+   }
+   
+a:visited {
+    color: blue !important;
+   }
+   
+a:hover {
+    color: red;
+   }
