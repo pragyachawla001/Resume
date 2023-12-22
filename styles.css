@@ -70,8 +70,8 @@ li {
     font-size: small;
     display: flex;
 }
-.phone, .email, .linkedin{
-    width: 33.33%;
+.phone, .email, .linkedin, .github{
+    width: 25%;
     text-align: center;
     font-size: medium;
 }
